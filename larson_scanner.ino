@@ -1,7 +1,7 @@
 #include <Adafruit_NeoPixel.h>
 
-#define N_LEDS 30
-#define PIN    D1
+#define N_LEDS 18
+#define PIN    0
 
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(N_LEDS, PIN, NEO_GRB + NEO_KHZ800);
 
@@ -15,7 +15,7 @@ void loop() {
   int j;
 
 
-  delay(30);
+  delay(50);
 
   // Rather than being sneaky and erasing just the tail pixel,
   // it's easier to erase it all and draw a new one next time.
